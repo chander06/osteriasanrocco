@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /
+
+Sitemap: https://osteriasanrocco.yuvraj-chander.workers.dev/sitemap.xml

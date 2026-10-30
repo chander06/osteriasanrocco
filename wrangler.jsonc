@@ -1,0 +1,12 @@
+// Configurazione del Worker Cloudflare che pubblica il sito.
+// "name" deve essere IDENTICO al nome del Worker creato su Cloudflare:
+// il sito sarà su https://osteriasanrocco.yuvraj-chander.workers.dev
+{
+  "name": "osteriasanrocco",
+  "compatibility_date": "2026-10-30",
+  "assets": {
+    "directory": "./public",
+    "not_found_handling": "404-page",
+    "html_handling": "auto-trailing-slash"
+  }
+}
